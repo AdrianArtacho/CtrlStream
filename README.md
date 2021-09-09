@@ -3,6 +3,7 @@
 This program stores MIDI/OSC streams in a textfile. 
 The item interval between datapoints can be set in ms as needed.
 
+[→ go to File Structure](#markdown-header-file-structure)
 
 ## Credits
 
