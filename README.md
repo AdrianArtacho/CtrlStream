@@ -57,9 +57,13 @@ Here is an example file included in the repository:
 
 For streams of data (such as XYZ coordinates), 
 the stored data will be the raw float provided by the sending device.
-For abstract states (such as *Fist posture* in Glover) we use boolean 1/0 values.
+For abstract states (such as *Fist posture* in Glover) which can be de/activated only, we use boolean 1/0 values.
+For states that are self-excluding, such as up-down, forwards-backwards and left-right, one value is expressive enough.
+In the case of *Glover's* directions, I have used values 1-6 to refer to the aforementioned states.
+
 
 # Contact
-...
+
+adrian@neuesatelier.org
 
 
