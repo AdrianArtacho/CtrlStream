@@ -1,4 +1,4 @@
-### CtrlStream 
+# CtrlStream 
 
 This program stores MIDI/OSC streams in a textfile. 
 The item interval between datapoints can be set in ms as needed.
@@ -14,12 +14,14 @@ University of Music and Performing Arts Vienna.
 
 ![Repo:SPACES:Ctrl:Stream](https://docs.google.com/drawings/d/e/2PACX-1vQ-cHocUObMvFQClW0ANR5ZBf8YEYNrBVNQ8HUnkXApQpTqNJqTBOdchJGM-_MbmX3weIaGPLDxKcKX/pub?w=328&h=303)
 
-## Instalation and usage (MacOS)
+# Instalation and usage 
+
+### (MacOS)
 
 This repository contains a MaxMSP project that can be extended ot customised as needed.
 A standalone (CtrlStream.app) for MacOS is also included.
 
-# Windows
+### Windows
 
 If you are a Windows user, you may clone the repository and open the MaxMSP project 
 with your Windows version of the software. 
@@ -36,5 +38,9 @@ By default, this path is the same as where the patches (or standalone app) are s
 - Stop (**Start/Stop**)
 
 ## Customisation 
+
+# File structure
+
+[CtrlStream_2021-09-09_16h46m10s.txt](CtrlStream_2021-09-09_16h46m10s.txt)
 
 ...
