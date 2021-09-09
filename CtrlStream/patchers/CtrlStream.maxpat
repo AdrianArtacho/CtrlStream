@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 45.0, 1124.0, 855.0 ],
+		"rect" : [ 1440.0, 22.0, 1680.0, 1028.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,34 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"format" : 6,
+					"id" : "obj-18",
+					"maxclass" : "flonum",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1638.775054528433202, 703.080291450023651, 63.56237990525824, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-17",
+					"linecount" : 3,
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 1638.775054528433202, 623.0, 36.224945471566798, 49.0 ],
+					"text" : "route directions"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-13",
 					"maxclass" : "newobj",
@@ -391,8 +419,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1076.687994449481721, 769.580291450023651, 398.0, 22.0 ],
-					"text" : "Index ms RH PITCH YAW ROLL Fist OpenHand PuppetHand Fingerpoint",
+					"patching_rect" : [ 1076.687994449481721, 769.580291450023651, 453.0, 22.0 ],
+					"text" : "Index ms RH PITCH YAW ROLL Fist OpenHand PuppetHand Fingerpoint directions",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
@@ -596,7 +624,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 88.132529497146606, 458.764808118343353, 173.532626450061798, 76.0 ],
+									"patching_rect" : [ 88.132529497146606, 458.764808118343353, 173.532626450061798, 89.0 ],
 									"text" : "\"Macintosh HD:/Users/artacho/Documents/Max 8/Projects/[Spaces]/CtrlStream/CtrlStream/media/CtrlStream_2021-09-09_16h46m10s.txt\""
 								}
 
@@ -644,8 +672,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 307.914437979459763, 199.006325960159302, 355.0, 22.0 ],
-									"text" : "0 ms PITCH YAW ROLL Fist OpenHand PuppetHand Fingerpoint"
+									"patching_rect" : [ 307.914437979459763, 199.006325960159302, 567.0, 22.0 ],
+									"text" : "0 ms PITCH YAW ROLL Fist OpenHand PuppetHand Fingerpoint directions(forw-back-left-right-up-down)"
 								}
 
 							}
@@ -4327,11 +4355,11 @@
 					"fontsize" : 12.0,
 					"id" : "obj-126",
 					"maxclass" : "newobj",
-					"numinlets" : 11,
+					"numinlets" : 12,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 894.104640412532831, 740.109488487243652, 699.000000000000114, 22.0 ],
-					"text" : "pack i i s f f f i i i i i"
+					"patching_rect" : [ 894.104640412532831, 740.109488487243652, 764.130446349580666, 22.0 ],
+					"text" : "pack i i s f f f i i i i i i"
 				}
 
 			}
@@ -11949,6 +11977,20 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-18", 0 ],
+					"source" : [ "obj-17", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-126", 11 ],
+					"source" : [ "obj-18", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-6", 0 ],
 					"source" : [ "obj-2", 0 ]
 				}
@@ -12131,6 +12173,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-110", 0 ],
 					"source" : [ "obj-53", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-17", 0 ],
+					"source" : [ "obj-53", 5 ]
 				}
 
 			}
