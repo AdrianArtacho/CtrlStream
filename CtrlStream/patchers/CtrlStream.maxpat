@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 33.0, 710.0, 170.0, 156.0 ],
+		"rect" : [ 0.0, 45.0, 1124.0, 855.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,29 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-13",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 429.0, 128.0, 47.0, 22.0 ],
+					"text" : "midiout"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-1",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 429.0, 35.0, 40.0, 22.0 ],
+					"text" : "midiin"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"bgcolor" : [ 0.301961, 0.301961, 0.301961, 1.0 ],
 					"bgcolor2" : [ 0.301961, 0.301961, 0.301961, 1.0 ],
@@ -199,7 +222,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 282.15328323841095, 208.430655896663666, 128.0, 18.0 ],
+					"patching_rect" : [ 1010.8941570520401, 415.693432450294495, 128.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 49.0, 18.0, 65.0, 18.0 ],
 					"text" : "interval (ms)"
@@ -213,7 +236,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 267.15328323841095, 193.430655896663666, 128.0, 18.0 ],
+					"patching_rect" : [ 1072.3941570520401, 116.335765659809113, 128.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 49.0, 3.0, 50.0, 18.0 ],
 					"text" : "OSC port"
@@ -226,7 +249,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 283.941604316234589, 160.583940744400024, 150.0, 20.0 ],
+					"patching_rect" : [ 761.930653214454651, 389.583940744400024, 74.124087274074554, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 78.340612661636328, 120.332117170095444, 76.277372658252716, 20.0 ],
 					"text" : "Start / Stop"
@@ -248,15 +271,16 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "off", "on" ],
-							"parameter_longname" : "live.toggle",
+							"parameter_linknames" : 1,
+							"parameter_longname" : "Start/Stop",
 							"parameter_mmax" : 1,
-							"parameter_shortname" : "live.toggle",
+							"parameter_shortname" : "start",
 							"parameter_type" : 2
 						}
 
 					}
 ,
-					"varname" : "live.toggle"
+					"varname" : "Start/Stop"
 				}
 
 			}
@@ -11790,6 +11814,13 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
+					"destination" : [ "obj-13", 0 ],
+					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-15", 0 ],
 					"source" : [ "obj-10", 0 ]
 				}
@@ -12233,7 +12264,7 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-111" : [ "live.toggle", "live.toggle", 0 ],
+			"obj-111" : [ "Start/Stop", "start", 0 ],
 			"obj-58" : [ "UDPport", "port", 0 ],
 			"obj-82" : [ "TimeInterval", "interval", 0 ],
 			"parameterbanks" : 			{
