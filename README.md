@@ -41,8 +41,24 @@ By default, this path is the same as where the patches (or standalone app) are s
 
 # File structure
 
+Data is stored as a simple **.txt** file (without separating characters). 
+Each line represents a snapshot at regular time intervals.
+The interval itself can be set using the GUI.
 
+The header line of the file has a descriptive string for each column. 
+All columns are populated.
+
+Here is an example file included in the repository:
 
 [CtrlStream_2021-09-09_16h46m10s.txt](CtrlStream/media/CtrlStream_2021-09-09_16h46m10s.txt)
 
+### Stream vs. on/off data
+
+For streams of data (such as XYZ coordinates), 
+the stored data will be the raw float provided by the sending device.
+For abstract states (such as *Fist posture* in Glover) we use boolean 1/0 values.
+
+# Contact
 ...
+
+
