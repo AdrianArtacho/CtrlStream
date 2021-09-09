@@ -41,6 +41,8 @@ By default, this path is the same as where the patches (or standalone app) are s
 
 # File structure
 
-[CtrlStream_2021-09-09_16h46m10s.txt](CtrlStream_2021-09-09_16h46m10s.txt)
+
+
+[CtrlStream_2021-09-09_16h46m10s.txt](CtrlStream/media/CtrlStream_2021-09-09_16h46m10s.txt)
 
 ...
