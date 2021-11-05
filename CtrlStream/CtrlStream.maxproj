@@ -2,7 +2,7 @@
 	"name" : "CtrlStream",
 	"version" : 1,
 	"creationdate" : 3714037381,
-	"modificationdate" : 3718974137,
+	"modificationdate" : 3718987780,
 	"viewrect" : [ 97.0, 130.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -32,6 +32,11 @@
 			}
 ,
 			"Sandbox.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"expandDevice.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
