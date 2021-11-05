@@ -2,7 +2,7 @@
 	"name" : "CtrlStream",
 	"version" : 1,
 	"creationdate" : 3714037381,
-	"modificationdate" : 3718962593,
+	"modificationdate" : 3718974137,
 	"viewrect" : [ 97.0, 130.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -50,6 +50,29 @@
 			"media-path.js" : 			{
 				"kind" : "javascript",
 				"local" : 1
+			}
+
+		}
+,
+		"other" : 		{
+			"2021-11-05_LeosHand2" : 			{
+				"kind" : "file",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/Documents/Max 8/Projects/[Spaces]/LampAeterna/LampAeterna/data",
+					"projectrelativepath" : "../../LampAeterna/LampAeterna/data"
+				}
+
+			}
+,
+			"2021-11-05_LeosHand" : 			{
+				"kind" : "file",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/Documents/Max 8/Projects/[Spaces]/LampAeterna/LampAeterna/data",
+					"projectrelativepath" : "../../LampAeterna/LampAeterna/data"
+				}
+
 			}
 
 		}
