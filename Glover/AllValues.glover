@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <GLOVER version="1.0.10" GlobalMute="0" PerformMode="0">
-  <DEVICEMANGER CurrentDevice="0">
+  <DEVICEMANGER CurrentDevice="1">
     <DEVICE DeviceType="NgimuGloveDevice" Hand="0" DeviceUniqueId="10954"
             UserDeviceName="Johannes (Left)" Mute="0" PredefinedButtonBehaviour="0"
             PostureTrainingSet="198.F....DiKv3RLvT.....B....W82Z+..vY8C...0O..Da+vUOL8C..s1O..vP+..fC8C.....w5iS+..f77C..pyO..nT+bJfB8C..uzO..7O+..vC8S.....W8uU+DY597C..szO..DT+LrMN8C..xzO..XP+jmTC8i.......HY+..PZ8C..yzO..TZ+..PF8C..YzO..zS+..PC8y.......TX+...g8C..gzO7jnS+..P+7C..YzO5GfP+..fC8CA...."
@@ -12,8 +12,8 @@
             PostureName8="Posture 8" PostureName9="Posture 9"/>
     <DEVICE DeviceType="NgimuGloveDevice" Hand="1" DeviceUniqueId="64804"
             UserDeviceName="Hanne (right)" Mute="0" PredefinedButtonBehaviour="0"
-            PostureTrainingSet="522.F....DiKv3RLv3.....B....aa0U+...m8C..20O..3X+..fd8C..y1Oi02U+..vI8C.......zU+..vl8yGZ00O..3X+..Pd8C..y1O..zU+...I8C.......zU+Tful8C..z0O..3X+...d8C..y1O..vU+..fH8C.......PR+...R8C..W0O..PS+LMrS8SVdxzO..jR+...D8S.......PR+...R8C..W0O..PS+LMrS8SVdxzO..jR+...D8S.....OIFR+..PQ8C..S0O..DS+..PR8C..rzO..DR+..vC8S.......PP+..vL8C..wzO..bR+...O8C..tzO..zV+..PD8i.....2rHP+..vL8STAvzO..DR+fqdN8C..+zO..bV+jk2C8i........P+..vL8C..vzO..HR+...N8C..8zO4IUV+..PB8i.....sa1O+..fL8iwUuzO...R+..vM8C..7zO..PV+..vA8i.......zR+..fm8yGZz0O..zY+fFaZ8SaakzOFqqX+DMFG8y.....B78R+..Pm8C..v0OQlxY+7CZX8C..fzO..rX+..PG8y.......vQ+..vP8CW8G0O..PS+fsaQ8C..bzOZXWT+DUPD8CA......bQ+..fO8C..8zO..3R+fJ.O8C..XzOQEzT+..fC8CA...."
-            CalibrationParameters="128.g5f5.A.PA8C..EzO..DY+jchcDD..8zO..zS+..Po8i04JOP..DR+..PH8C..n1OyisBAA.PH8C..gzO..bY+DLBLDD..fzO...R+..Pk8yJf0JP...P+....8C..81OtLUAAA..67C..ryOQiaV+zLyLID..7yO..vO+...D8C"
+            PostureTrainingSet="702.F....DiKv3RLvLA....B....aa0U+...m8C..20O..3X+..fd8C..y1Oi02U+..vI8C.......zU+..vl8yGZ00O..3X+..Pd8C..y1O..zU+...I8C.......zU+Tful8C..z0O..3X+...d8C..y1O..vU+..fH8C.......PR+...R8C..W0O..PS+LMrS8SVdxzO..jR+...D8S.......PR+...R8C..W0O..PS+LMrS8SVdxzO..jR+...D8S.....OIFR+..PQ8C..S0O..DS+..PR8C..rzO..DR+..vC8S.......PP+..vL8C..wzO..bR+...O8C..tzO..zV+..PD8i.....2rHP+..vL8STAvzO..DR+fqdN8C..+zO..bV+jk2C8i........P+..vL8C..vzO..HR+...N8C..8zO4IUV+..PB8i.....sa1O+..fL8iwUuzO...R+..vM8C..7zO..PV+..vA8i.......zR+..fm8yGZz0O..zY+fFaZ8SaakzOFqqX+DMFG8y.....B78R+..Pm8C..v0OQlxY+7CZX8C..fzO..rX+..PG8y.......vQ+..vP8CW8G0O..PS+fsaQ8C..bzOZXWT+DUPD8CA......bQ+..fO8C..8zO..3R+fJ.O8C..XzOQEzT+..fC8CA......jQ+..ff8C..B1O..fY+..vf8C..j1O...S+..PS8C.......bO+..PI8C..yzO..rP+..vK8C..RzO..7M+..vB8S.....A95O+Tf+F8C..m0O..DP+..fj8yjHJzO..nS+..fM8i.......fR+T+.g8isao0ONpHZ+..vh8C..7yOoBnM+..PO8y.......DQ+..vh8C..80OubJZ+..vh8iSAl1OHZBQ+..vA8CA...."
+            CalibrationParameters="128.E7xoAA.f77C..xyO..LR+DbBbDD..dzO..3Q+..vg8ShHhPP..PQ+...E8C..L1O1P40.A.PA8C..EzO..zY+rc5QDzssdzO215Q+..vi8SLLLLP..XP+..fA8C..t1OHWVQAA..37C..fyO..LS+DRCRED..DzO..PP+..fT8C"
             ConnectionType="0" SerialNumber="002D514F" PostureName1="Fist"
             PostureName2="Open Hand" PostureName3="Puppet Hand" PostureName4="One Finger Point"
             PostureName5="Posture 5" PostureName6="Posture 6" PostureName7="Posture 7"
@@ -39,7 +39,7 @@
                                InputType="3" Inverted="0"/>
             </INPUTCOMBINATION>
           </MAPPINGINPUT>
-          <MAPPINGINPUT InputMin="0.2456466406583786" InputMax="0.0585261695086956" OutputMin="0.0"
+          <MAPPINGINPUT InputMin="0.1863787919282913" InputMax="0.9598867893218994" OutputMin="0.0"
                         OutputMax="127.0" WarpFactor="0.0" OutputValue="127" AltOutputValue="0"
                         OutputVelocitySensitive="1" AltOutputVelocitySensitive="1" ToggleMode="0"
                         MovementThreshold="0.5" MovementThresholdEnabled="0" ThresholdOnsetValue="127"
@@ -146,7 +146,7 @@
             </INPUTCOMBINATION>
           </MAPPINGINPUT>
           <MAPPINGINPUT InputMin="0.0" InputMax="1.0" OutputMin="0.0" OutputMax="127.0"
-                        WarpFactor="0.0" OutputValue="1.0" AltOutputValue="0" OutputVelocitySensitive="1"
+                        WarpFactor="0.0" OutputValue="1.0" AltOutputValue="2.0" OutputVelocitySensitive="1"
                         AltOutputVelocitySensitive="1" ToggleMode="2" MovementThreshold="0.5"
                         MovementThresholdEnabled="0" ThresholdOnsetValue="127" ThresholdReleaseValue="0"
                         ShouldSendValueOnThresholdOnset="1" ShouldSendValueOnThresholdRelease="0"
