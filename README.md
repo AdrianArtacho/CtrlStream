@@ -13,7 +13,7 @@ which is itself part of the larger project
 at the 
 University of Music and Performing Arts Vienna.
 
-![Repo:SPACES:Ctrl:Stream](https://docs.google.com/drawings/d/e/2PACX-1vQ-cHocUObMvFQClW0ANR5ZBf8YEYNrBVNQ8HUnkXApQpTqNJqTBOdchJGM-_MbmX3weIaGPLDxKcKX/pub?w=328&h=303)
+![Repo:ATLAS:Ctrl:Stream](https://docs.google.com/drawings/d/e/2PACX-1vQ-cHocUObMvFQClW0ANR5ZBf8YEYNrBVNQ8HUnkXApQpTqNJqTBOdchJGM-_MbmX3weIaGPLDxKcKX/pub?w=328&h=303)
 
 # Instalation and usage 
 

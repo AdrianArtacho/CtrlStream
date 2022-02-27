@@ -2,7 +2,7 @@
 	"name" : "CtrlStream",
 	"version" : 1,
 	"creationdate" : 3714037381,
-	"modificationdate" : 3718987780,
+	"modificationdate" : 3728807098,
 	"viewrect" : [ 97.0, 130.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -40,13 +40,15 @@
 				"kind" : "patcher",
 				"local" : 1
 			}
-
-		}
 ,
-		"media" : 		{
-			"Spaces_logo.png" : 			{
-				"kind" : "imagefile",
-				"local" : 1
+			"feat-selector.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/Documents/Max 8/Projects/[Spaces]/SmoothOperator/CtrlStream/CtrlStream/patchers",
+					"projectrelativepath" : "../../SmoothOperator/CtrlStream/CtrlStream/patchers"
+				}
+
 			}
 
 		}
@@ -59,25 +61,19 @@
 
 		}
 ,
+		"data" : 		{
+
+		}
+,
 		"other" : 		{
 			"2021-11-05_LeosHand2" : 			{
 				"kind" : "file",
-				"local" : 1,
-				"singleton" : 				{
-					"bootpath" : "~/Documents/Max 8/Projects/[Spaces]/LampAeterna/LampAeterna/data",
-					"projectrelativepath" : "../../LampAeterna/LampAeterna/data"
-				}
-
+				"local" : 1
 			}
 ,
 			"2021-11-05_LeosHand" : 			{
 				"kind" : "file",
-				"local" : 1,
-				"singleton" : 				{
-					"bootpath" : "~/Documents/Max 8/Projects/[Spaces]/LampAeterna/LampAeterna/data",
-					"projectrelativepath" : "../../LampAeterna/LampAeterna/data"
-				}
-
+				"local" : 1
 			}
 
 		}
