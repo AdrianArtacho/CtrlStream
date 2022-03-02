@@ -1,0 +1,1 @@
+0, ms LH/RH PITCH YAW ROLL posture(fist-open-puppet-point-spoon) button(1/0) forwards-backwards left-right up-down flex_little flex_ring-distal flex_ring-proximal flex_middle-distal flex_middle-proximal flex_index-distal flex_index-proximal flex_thumb flex_average;1001, 33 LH 84.635811 4.126821 0. 2 1 0 0 0 0 0 0 0 27 63 63 0 1;
