@@ -40,6 +40,30 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-166",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 1612.0, 89.0, 61.0, 22.0 ],
+					"text" : "route play"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-144",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 1612.0, 60.0, 81.0, 22.0 ],
+					"text" : "route settings"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-208",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -45799,6 +45823,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-166", 0 ],
+					"source" : [ "obj-144", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-58", 0 ],
 					"source" : [ "obj-145", 1 ]
 				}
@@ -45935,6 +45966,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-103", 0 ],
+					"source" : [ "obj-166", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-178", 0 ],
 					"source" : [ "obj-167", 0 ]
 				}
@@ -46014,14 +46052,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-179", 1 ],
-					"order" : 4,
-					"source" : [ "obj-173", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-180", 1 ],
 					"order" : 6,
 					"source" : [ "obj-173", 0 ]
 				}
@@ -46029,8 +46059,16 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-181", 1 ],
+					"destination" : [ "obj-180", 1 ],
 					"order" : 5,
+					"source" : [ "obj-173", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-181", 1 ],
+					"order" : 4,
 					"source" : [ "obj-173", 0 ]
 				}
 
@@ -46078,30 +46116,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-179", 0 ],
-					"order" : 0,
-					"source" : [ "obj-174", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-180", 0 ],
-					"order" : 2,
-					"source" : [ "obj-174", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-181", 0 ],
-					"order" : 1,
-					"source" : [ "obj-174", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-182", 0 ],
 					"order" : 6,
 					"source" : [ "obj-174", 0 ]
 				}
@@ -46109,7 +46123,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-183", 0 ],
+					"destination" : [ "obj-180", 0 ],
 					"order" : 5,
 					"source" : [ "obj-174", 0 ]
 				}
@@ -46117,7 +46131,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-184", 0 ],
+					"destination" : [ "obj-181", 0 ],
 					"order" : 4,
 					"source" : [ "obj-174", 0 ]
 				}
@@ -46125,8 +46139,32 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-185", 0 ],
+					"destination" : [ "obj-182", 0 ],
 					"order" : 3,
+					"source" : [ "obj-174", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-183", 0 ],
+					"order" : 2,
+					"source" : [ "obj-174", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-184", 0 ],
+					"order" : 1,
+					"source" : [ "obj-174", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-185", 0 ],
+					"order" : 0,
 					"source" : [ "obj-174", 0 ]
 				}
 
@@ -46501,7 +46539,16 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-144", 0 ],
+					"order" : 1,
+					"source" : [ "obj-207", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-173", 0 ],
+					"order" : 0,
 					"source" : [ "obj-207", 0 ]
 				}
 
@@ -47447,35 +47494,35 @@
 		"dependency_cache" : [ 			{
 				"name" : "DateTimeString.maxpat",
 				"bootpath" : "~/Documents/Max 8/Projects/[Spaces]/CtrlStream/CtrlStream/patchers",
-				"patcherrelativepath" : ".",
+				"patcherrelativepath" : "../../../../CtrlStream/CtrlStream/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "twoDigits.maxpat",
 				"bootpath" : "~/Documents/Max 8/Projects/[Spaces]/CtrlStream/CtrlStream/patchers",
-				"patcherrelativepath" : ".",
+				"patcherrelativepath" : "../../../../CtrlStream/CtrlStream/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "CurrentLocation.maxpat",
 				"bootpath" : "~/Documents/Max 8/Projects/[Spaces]/CtrlStream/CtrlStream/patchers",
-				"patcherrelativepath" : ".",
+				"patcherrelativepath" : "../../../../CtrlStream/CtrlStream/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "media-path.js",
 				"bootpath" : "~/Documents/Max 8/Projects/[Spaces]/CtrlStream/CtrlStream/code",
-				"patcherrelativepath" : "../code",
+				"patcherrelativepath" : "../../../../CtrlStream/CtrlStream/code",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "feat-selector.maxpat",
 				"bootpath" : "~/Documents/Max 8/Projects/[Spaces]/CtrlStream/CtrlStream/patchers",
-				"patcherrelativepath" : ".",
+				"patcherrelativepath" : "../../../../CtrlStream/CtrlStream/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
