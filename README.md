@@ -1,4 +1,4 @@
-# CtrlStream 
+# CtrlStream
 
 This program stores MIDI/OSC streams in a textfile. 
 The item interval between datapoints can be set in ms as needed.
@@ -15,7 +15,7 @@ University of Music and Performing Arts Vienna.
 
 ![Repo:ATLAS:Ctrl:Stream](https://docs.google.com/drawings/d/e/2PACX-1vQ-cHocUObMvFQClW0ANR5ZBf8YEYNrBVNQ8HUnkXApQpTqNJqTBOdchJGM-_MbmX3weIaGPLDxKcKX/pub?w=328&h=303)
 
-# Instalation and usage 
+# Instalation and usage
 
 ### (MacOS)
 
@@ -38,7 +38,7 @@ By default, this path is the same as where the patches (or standalone app) are s
 - Start recording (**Start/Stop**)
 - Stop (**Start/Stop**)
 
-## Customisation 
+## Customisation
 
 # File structure
 
@@ -61,9 +61,16 @@ For abstract states (such as *Fist posture* in Glover) which can be de/activated
 For states that are self-excluding, such as up-down, forwards-backwards and left-right, one value is expressive enough.
 In the case of *Glover's* directions, I have used values 1-6 to refer to the aforementioned states.
 
-
 # Contact
 
 adrian@neuesatelier.org
+
+
+
+---
+
+# To-Do
+
+- ...
 
 
